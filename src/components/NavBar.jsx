@@ -1,90 +1,72 @@
 import React, { useState } from 'react';
-import { FaFacebook , FaLinkedinIn } from 'react-icons/fa';
+import { FaBars, FaFacebook, FaGithub, FaLinkedinIn, FaTimes } from 'react-icons/fa';
+import { Link, NavLink } from 'react-router-dom';
 
 const NavBar = () => {
-    const [isMenuOpen, setIsMenuOpen] = useState(false);
-
-    const toggleMenu = () => {
-        setIsMenuOpen(!isMenuOpen);
-    };
-
     return (
-        <div>
-            <nav className="bg-gray-800">
-                <div className="mx-auto max-w-7xl px-2 sm:px-6 lg:px-8">
-                    <div className="relative flex h-16 items-center justify-between">
-                        {/* Mobile menu button */}
-                        <div className="absolute inset-y-0 left-0 flex items-center sm:hidden">
-                            <button
-                                type="button"
-                                className="inline-flex items-center justify-center rounded-md p-2 text-gray-400 hover:bg-gray-700 hover:text-white focus:outline-none focus:ring-2 focus:ring-inset focus:ring-white"
-                                aria-controls="mobile-menu"
-                                aria-expanded={isMenuOpen}
-                                onClick={toggleMenu}
-                            >
-                                <span className="sr-only">Open main menu</span>
-                                {isMenuOpen ? (
-                                    <svg className="block h-6 w-6" fill="none" viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor" aria-hidden="true">
-                                        <path strokeLinecap="round" strokeLinejoin="round" d="M6 18L18 6M6 6l12 12" />
-                                    </svg>
-                                ) : (
-                                    <svg className="block h-6 w-6" fill="none" viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor" aria-hidden="true">
-                                        <path strokeLinecap="round" strokeLinejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
-                                    </svg>
-                                )}
-                            </button>
+        <nav className="sticky top-0 z-50">
+            <div className="navbar bg-gray-900 text-white">
+                <div className="navbar-start">
+                    <div className="dropdown">
+                        <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
+                            <svg
+                                xmlns="http://www.w3.org/2000/svg"
+                                className="h-5 w-5"
+                                fill="none"
+                                viewBox="0 0 24 24"
+                                stroke="currentColor">
+                                <path
+                                    strokeLinecap="round"
+                                    strokeLinejoin="round"
+                                    strokeWidth="2"
+                                    d="M4 6h16M4 12h8m-8 6h16" />
+                            </svg>
+                        </div>
+                        <ul                        
+                            tabIndex={0}
+                            className="menu menu-sm dropdown-content bg-gray-900 rounded-box z-[1] mt-3 w-52 p-2 shadow">
+                            <li className='hover:bg-gray-800 rounded-md'><NavLink  to='/'>Home</NavLink ></li>
+                            <li className='hover:bg-gray-800 rounded-md'><NavLink  to='/about'>About</NavLink ></li>
+                            <li className='hover:bg-gray-800 rounded-md'><NavLink  to='/skills'>What I Do</NavLink > </li>
+                            <li className='hover:bg-gray-800 rounded-md'><NavLink  to='/resume'>Resume</NavLink></li>
+                            <li className='hover:bg-gray-800 rounded-md'><NavLink  to='/project'>Project</NavLink ></li>
+                            <li className='hover:bg-gray-800 rounded-md'><NavLink  to='/contact'>Contact</NavLink ></li>
+                        </ul>
+                    </div>
+                    <a className="btn btn-ghost text-xl">Sharif Ahmed Alif</a>
+                </div>
+                <div className="navbar-center hidden lg:flex">
+                    <ul className="menu menu-horizontal px-1">
+                        <li className='hover:bg-gray-800 rounded-md'><NavLink to='/'>Home</NavLink></li>
+                        <li className='hover:bg-gray-800 rounded-md'><NavLink to='/about'>About</NavLink></li>
+                        <li className='hover:bg-gray-800 rounded-md'><NavLink to='/skills'>What I Do</NavLink></li>
+                        <li className='hover:bg-gray-800 rounded-md'><NavLink to='/resume'>Resume</NavLink></li>
+                        <li className='hover:bg-gray-800 rounded-md'><NavLink to='/project'>Project</NavLink></li>
+                        <li className='hover:bg-gray-800 rounded-md'><NavLink to='/contact'>Contact</NavLink></li>
+                    </ul>
+                </div>
+                <div className="navbar-end">
+                    <div className='flex'>
+                        <div className="tooltip" data-tip="GitHub" >
+                            <a href="https://github.com/Sharif81" target="_blank" rel="noopener noreferrer">
+                                <FaGithub href='' className='mr-3 text-2xl cursor-pointer hover:text-gray-400' />
+                            </a>
+                        </div>
+                        <div className="tooltip" data-tip="LinkedIn">
+                            <a href="https://www.linkedin.com/in/sharif-uddin-/" target="_blank" rel="noopener noreferrer">
+                                <FaLinkedinIn className="mr-3 text-2xl cursor-pointer hover:text-gray-400" />
+                            </a>
                         </div>
 
-                        {/* Logo and Links */}
-                        <div className="flex items-center justify-between w-full sm:justify-start">
-                            {/* Logo aligned to the left */}
-                            <div className="flex-shrink-0 text-white font-bold">
-                                Sharif Ahmed Alif
-                            </div>
-
-                            {/* Navigation Links */}
-                            <div className="hidden sm:ml-6 sm:flex sm:justify-center w-full">
-                                <div className="flex space-x-4">
-                                    <a href="#" className="rounded-md bg-gray-900 px-3 py-2 text-sm font-medium text-white">Home</a>
-                                    <a href="#" className="rounded-md px-3 py-2 text-sm font-medium text-gray-300 hover:bg-gray-700 hover:text-white">About</a>
-                                    <a href="#" className="rounded-md px-3 py-2 text-sm font-medium text-gray-300 hover:bg-gray-700 hover:text-white">What I Do</a>
-                                    <a href="#" className="rounded-md px-3 py-2 text-sm font-medium text-gray-300 hover:bg-gray-700 hover:text-white">Resume</a>
-                                    <a href="#" className="rounded-md px-3 py-2 text-sm font-medium text-gray-300 hover:bg-gray-700 hover:text-white">Projects</a>
-                                    <a href="#" className="rounded-md px-3 py-2 text-sm font-medium text-gray-300 hover:bg-gray-700 hover:text-white">Contact</a>
-                                </div>
-                            </div>
-                        </div>
-
-
-                        {/* User Profile and Notifications */}
-                        <div className="absolute inset-y-0 right-0 flex items-center pr-2 sm:static sm:inset-auto sm:ml-6 sm:pr-0">
-                            <button type="button" className="bg-gray-800 p-1 rounded-full text-gray-400 hover:text-white focus:outline-none focus:ring-2 focus:ring-white focus:ring-offset-2 focus:ring-offset-gray-800 text-3xl">
-                            <FaLinkedinIn  className="bg-gray-800 p-1 rounded-full text-gray-400 hover:text-white focus:outline-none focus:ring-2 focus:ring-white focus:ring-offset-2 focus:ring-offset-gray-800"></FaLinkedinIn > 
-                            </button>
-                            <div className="ml-3 relative">
-                                <div>
-                                    <button className="bg-gray-800 flex rounded-full text-3xl focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-gray-800 focus:ring-white" title='Facebook'>
-                                        <FaFacebook className="bg-gray-800 p-1 rounded-full text-gray-400 hover:text-white focus:outline-none focus:ring-2 focus:ring-white focus:ring-offset-2 focus:ring-offset-gray-800"></FaFacebook>
-                                    </button>
-                                </div>
-                            </div>
+                        <div className="tooltip" data-tip="Facebook">
+                            <a href="https://www.facebook.com/al.if.526" target="_blank" rel="noopener noreferrer">
+                                <FaFacebook className='mr-3 text-2xl cursor-pointer hover:text-gray-400' />
+                            </a>
                         </div>
                     </div>
                 </div>
-
-                {/* Mobile menu, show/hide based on menu state */}
-                {isMenuOpen && (
-                    <div className="sm:hidden" id="mobile-menu">
-                        <div className="space-y-1 px-2 pt-2 pb-3">
-                            <a href="#" className="block rounded-md bg-gray-900 px-3 py-2 text-base font-medium text-white">Dashboard</a>
-                            <a href="#" className="block rounded-md px-3 py-2 text-base font-medium text-gray-300 hover:bg-gray-700 hover:text-white">Team</a>
-                            <a href="#" className="block rounded-md px-3 py-2 text-base font-medium text-gray-300 hover:bg-gray-700 hover:text-white">Projects</a>
-                            <a href="#" className="block rounded-md px-3 py-2 text-base font-medium text-gray-300 hover:bg-gray-700 hover:text-white">Calendar</a>
-                        </div>
-                    </div>
-                )}
-            </nav>
-        </div>
+            </div>
+        </nav>
     );
 };
 
