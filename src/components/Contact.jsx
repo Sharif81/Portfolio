@@ -2,7 +2,7 @@ import React from 'react'
 import { FaMobileAlt } from "react-icons/fa";
 import { MdMailOutline } from "react-icons/md";
 import { FaWhatsapp } from "react-icons/fa";
-import { FaFacebook, FaGithub, FaLinkedinIn, FaTimes } from 'react-icons/fa';
+import { FaFacebook, FaGithub, FaLinkedinIn } from 'react-icons/fa';
 
 
 export const Contact = () => {

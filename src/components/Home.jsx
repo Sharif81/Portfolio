@@ -14,7 +14,7 @@ const Home = () => {
             <div className="hero-content flex-col lg:flex-row-reverse gap-5 lg:gap-10">
                 <img
                     src={HeroImage}
-                    className="max-w-sm rounded-lg shadow-2xl" width={400} />
+                    className="max-w-sm rounded-lg shadow-2xl" alt="This is hero Images" width={400} />
                 <div>
                     <TypingEffect text={texts} speed={100} />
                     <p className="py-4 text-gray-800">

@@ -1,6 +1,5 @@
-import React, { useState } from 'react';
-import { FaBars, FaFacebook, FaGithub, FaLinkedinIn, FaTimes } from 'react-icons/fa';
-import { Link, NavLink } from 'react-router-dom';
+import { FaFacebook, FaGithub, FaLinkedinIn, FaTimes } from 'react-icons/fa';
+import { NavLink } from 'react-router-dom';
 
 const NavBar = () => {
     return (

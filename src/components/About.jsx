@@ -1,19 +1,9 @@
 import React from 'react'
 import { FaDownload } from 'react-icons/fa';
-// import HomeImage from '../assets/AboutBG.jpg'
+
 
 function About() {
-    // const backgroundStyle = {
-    //     backgroundImage: `url(${HomeImage})`,
-    //     backgroundSize: 'cover',
-    //     backgroundPosition: 'center',
-    //     height: '100vh',
-    //     display: 'flex',
-    //     justifyContent: 'center',
-    //     alignItems: 'center',
-    //     color: 'white',   
-    //     opacity: '60%',     
-    //   };
+   
   return (
     <section id="about" className="min-h-screen bg-base-200">
       <div class="container mx-auto">

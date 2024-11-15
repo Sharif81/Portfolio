@@ -25,7 +25,7 @@ const Project = () => {
             {/* Project Card 1 */}
             <div className="group relative shadow-lg border-2 border-gray-200 p-5 rounded-lg ">
               <div className="relative h-64 w-full overflow-hidden rounded-lg bg-white transform transition-transform duration-500 group-hover:scale-110">
-                <img src={DigitalMarketing} alt="Live Weather Update Project" className="h-full w-full object-cover object-center" />
+                <img src={DigitalMarketing} alt="Digital Marketing Project" className="h-full w-full object-cover object-center" />
               </div>
               <h5 className="text-xl font-bold text-primary py-5">Digital Marketing</h5>
               <p className="text-base font-semibold text-gray-400 flex items-center">
@@ -42,7 +42,7 @@ const Project = () => {
             {/* Project Card 2 */}
             <div className="group relative shadow-lg border-2 border-gray-200 p-5 rounded-lg ">
               <div className="relative h-64 w-full overflow-hidden rounded-lg bg-white transform transition-transform duration-500 group-hover:scale-110">
-                <img src={LiveWeather}  className="h-full w-full object-cover object-center" />
+                <img src={LiveWeather} alt="Live Weather Update Project" className="h-full w-full object-cover object-center" />
               </div>
               <h5 className="text-xl font-bold text-primary py-5">Live Weather</h5>
               <p className="text-base font-semibold text-gray-400 flex items-center">
@@ -59,7 +59,7 @@ const Project = () => {
             {/* Project Card 3 */}
             <div className="group relative shadow-lg border-2 border-gray-200 p-5 rounded-lg ">
               <div className="relative h-64 w-full overflow-hidden rounded-lg bg-white transform transition-transform duration-500 group-hover:scale-110">
-                <img src={Elibary}  className="h-full w-full object-cover object-center" />
+                <img src={Elibary} alt="E-Library Project"  className="h-full w-full object-cover object-center" />
               </div>
               <h5 className="text-xl font-bold text-primary py-5">E-Library Management</h5>
               <p className="text-base font-semibold text-gray-400 flex items-center">
@@ -76,7 +76,7 @@ const Project = () => {
              {/* Project Card 1 */}
              <div className="group relative shadow-lg border-2 border-gray-200 p-5 rounded-lg ">
               <div className="relative h-64 w-full overflow-hidden rounded-lg bg-white transform transition-transform duration-500 group-hover:scale-110">
-                <img src={Attendance}  className="h-full w-full object-cover object-center" />
+                <img src={Attendance} alt="Attendance Management Project" className="h-full w-full object-cover object-center" />
               </div>
               <h5 className="text-xl font-bold text-primary py-5">Attendance Management</h5>
               <p className="text-base font-semibold text-gray-400 flex items-center">
@@ -93,7 +93,7 @@ const Project = () => {
             {/* Project Card 2 */}
             <div className="group relative shadow-lg border-2 border-gray-200 p-5 rounded-lg ">
               <div className="relative h-64 w-full overflow-hidden rounded-lg bg-white transform transition-transform duration-500 group-hover:scale-110">
-                <img src={WeddingClient}  className="h-full w-full object-cover object-center" />
+                <img src={WeddingClient} alt="Wedding Letter Client Project"  className="h-full w-full object-cover object-center" />
               </div>
               <h5 className="text-xl font-bold text-primary py-5">Wedding Letter Client</h5>
               <p className="text-base font-semibold text-gray-400 flex items-center">
@@ -110,7 +110,7 @@ const Project = () => {
             {/* Project Card 3 */}
             <div className="group relative shadow-lg border-2 border-gray-200 p-5 rounded-lg ">
               <div className="relative h-64 w-full overflow-hidden rounded-lg bg-white transform transition-transform duration-500 group-hover:scale-110">
-                <img src={WeddingAPI} alt="Live Weather Update Project" className="h-full w-full object-cover object-center" />
+                <img src={WeddingAPI} alt="Wedding Letter API Project" className="h-full w-full object-cover object-center" />
               </div>
               <h5 className="text-xl font-bold text-primary py-5">Wedding Letter API</h5>
               <p className="text-base font-semibold text-gray-400 flex items-center">
