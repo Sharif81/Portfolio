@@ -11,7 +11,7 @@ const Home = () => {
     ];
     return (
         <div className="hero min-h-screen" id='home'>
-            <div className="hero-content flex-col lg:flex-row-reverse gap-5">
+            <div className="hero-content flex-col lg:flex-row-reverse gap-5 lg:gap-10">
                 <img
                     src={HeroImage}
                     className="max-w-sm rounded-lg shadow-2xl" width={400} />

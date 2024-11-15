@@ -4,6 +4,8 @@ import LiveWeather from '../assets/LiveWeather.PNG';
 import DigitalMarketing from '../assets/DigitalMarketing.PNG';
 import Elibary from '../assets/digitalBook.jpg';
 import Attendance from '../assets/AttendanceManagement.png';
+import WeddingClient from '../assets/WeddingLetterClient.PNG';
+import WeddingAPI from '../assets/WeddingLetterAPI.PNG'
 
 const Project = () => {
   return (
@@ -40,7 +42,7 @@ const Project = () => {
             {/* Project Card 2 */}
             <div className="group relative shadow-lg border-2 border-gray-200 p-5 rounded-lg ">
               <div className="relative h-64 w-full overflow-hidden rounded-lg bg-white transform transition-transform duration-500 group-hover:scale-110">
-                <img src={LiveWeather} alt="Live Weather Update Project" className="h-full w-full object-cover object-center" />
+                <img src={LiveWeather}  className="h-full w-full object-cover object-center" />
               </div>
               <h5 className="text-xl font-bold text-primary py-5">Live Weather</h5>
               <p className="text-base font-semibold text-gray-400 flex items-center">
@@ -57,7 +59,7 @@ const Project = () => {
             {/* Project Card 3 */}
             <div className="group relative shadow-lg border-2 border-gray-200 p-5 rounded-lg ">
               <div className="relative h-64 w-full overflow-hidden rounded-lg bg-white transform transition-transform duration-500 group-hover:scale-110">
-                <img src={Elibary} alt="Live Weather Update Project" className="h-full w-full object-cover object-center" />
+                <img src={Elibary}  className="h-full w-full object-cover object-center" />
               </div>
               <h5 className="text-xl font-bold text-primary py-5">E-Library Management</h5>
               <p className="text-base font-semibold text-gray-400 flex items-center">
@@ -74,7 +76,7 @@ const Project = () => {
              {/* Project Card 1 */}
              <div className="group relative shadow-lg border-2 border-gray-200 p-5 rounded-lg ">
               <div className="relative h-64 w-full overflow-hidden rounded-lg bg-white transform transition-transform duration-500 group-hover:scale-110">
-                <img src={Attendance} alt="Live Weather Update Project" className="h-full w-full object-cover object-center" />
+                <img src={Attendance}  className="h-full w-full object-cover object-center" />
               </div>
               <h5 className="text-xl font-bold text-primary py-5">Attendance Management</h5>
               <p className="text-base font-semibold text-gray-400 flex items-center">
@@ -91,34 +93,34 @@ const Project = () => {
             {/* Project Card 2 */}
             <div className="group relative shadow-lg border-2 border-gray-200 p-5 rounded-lg ">
               <div className="relative h-64 w-full overflow-hidden rounded-lg bg-white transform transition-transform duration-500 group-hover:scale-110">
-                <img src={LiveWeather} alt="Live Weather Update Project" className="h-full w-full object-cover object-center" />
+                <img src={WeddingClient}  className="h-full w-full object-cover object-center" />
               </div>
-              <h5 className="text-xl font-bold text-primary py-5">Live Weather</h5>
+              <h5 className="text-xl font-bold text-primary py-5">Wedding Letter Client</h5>
               <p className="text-base font-semibold text-gray-400 flex items-center">
                 <FaCode className="mr-2" size={30} />
-                HTML, CSS, JavaScript
+                HTML, Bootstrap, Angular, Toastr, SweetAlert
               </p>
               <div className="divider"></div>
               <div className="mt-3 flex space-x-2">
-               <a href="https://weather-live-update.netlify.app/" target="_blank"> <button className="btn btn-outline btn-primary btn-sm">Live Link</button></a>
-               <a href="https://github.com/Sharif81/live-weather" target="_blank"> <button className="btn btn-outline btn-primary btn-sm">GitHub</button></a>
+               <a href="https://github.com/Sharif81/WeddingLetterClient" target="_blank"> <button className="btn btn-outline btn-primary btn-sm">Live Link</button></a>
+               <a href="https://github.com/Sharif81/WeddingLetterClient" target="_blank"> <button className="btn btn-outline btn-primary btn-sm">GitHub</button></a>
               </div>
             </div>
 
             {/* Project Card 3 */}
             <div className="group relative shadow-lg border-2 border-gray-200 p-5 rounded-lg ">
               <div className="relative h-64 w-full overflow-hidden rounded-lg bg-white transform transition-transform duration-500 group-hover:scale-110">
-                <img src={Elibary} alt="Live Weather Update Project" className="h-full w-full object-cover object-center" />
+                <img src={WeddingAPI} alt="Live Weather Update Project" className="h-full w-full object-cover object-center" />
               </div>
-              <h5 className="text-xl font-bold text-primary py-5">E-Library Management</h5>
+              <h5 className="text-xl font-bold text-primary py-5">Wedding Letter API</h5>
               <p className="text-base font-semibold text-gray-400 flex items-center">
                 <FaCode className="mr-2" size={30} />
-                HTML, Bootstrap, JQuery, C#, ASP.NET, SQLServer, ADO.NET, RDLC Report
+                C#, .NET Core Web API, SQLServer, Entity Framework
               </p>
               <div className="divider"></div>
               <div className="mt-3 flex space-x-2">
-               <a href="https://github.com/Sharif81/ElibraryManagment" target="_blank"> <button className="btn btn-outline btn-primary btn-sm">Live Link</button></a>
-               <a href="https://github.com/Sharif81/ElibraryManagment" target="_blank"> <button className="btn btn-outline btn-primary btn-sm">GitHub</button></a>
+               <a href="https://github.com/Sharif81/WeddingLetterApp" target="_blank"> <button className="btn btn-outline btn-primary btn-sm">Live Link</button></a>
+               <a href="https://github.com/Sharif81/WeddingLetterApp" target="_blank"> <button className="btn btn-outline btn-primary btn-sm">GitHub</button></a>
               </div>
             </div>
           </div>

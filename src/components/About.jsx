@@ -33,7 +33,7 @@ function About() {
           <div class="md:col-span-1 p-4">
             <p className=''><strong>Name: </strong>Sharif Ahmed Alif</p>
             <div class="border-t border-gray-300 my-4"></div>
-            <p><strong>Email: </strong><span className='text-green-500'>sharifahamedalif@gmail.com</span></p>
+            <p><strong>Email: </strong><span className='text-green-500 cursor-pointer'>sharifahamedalif@gmail.com</span></p>
             <div class="border-t border-gray-300 my-4"></div>
             <p><strong>Age: </strong>29</p>
             <div class="border-t border-gray-300 my-4"></div>
