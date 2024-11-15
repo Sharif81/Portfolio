@@ -93,7 +93,7 @@ const Resume = () => {
                     </div>
                 </div>
                 <div className="flex justify-center items-center py-5">
-                    <button className='btn btn-outline btn-primary rounded-full'> <FaDownload />Download CV</button>
+                    <button className='btn btn-outline btn-primary rounded-full' onClick={() => window.open('https://drive.google.com/file/d/1AuJ_nhals6ukdKYK-GaW13vhH6CR3mcc/view?usp=sharing', '_blank')}> <FaDownload />Download CV</button>
                 </div>
             </div>
 

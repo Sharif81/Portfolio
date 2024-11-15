@@ -3,7 +3,7 @@ import { FaDownload } from 'react-icons/fa';
 
 
 function About() {
-   
+
   return (
     <section id="about" className="min-h-screen bg-base-200">
       <div class="container mx-auto">
@@ -28,7 +28,13 @@ function About() {
             <p><strong>Age: </strong>29</p>
             <div class="border-t border-gray-300 my-4"></div>
             <p><strong>From: </strong>Agrabad, Chattogram</p>
-            <button className='btn btn-primary rounded-full mt-5'> <FaDownload />Download CV</button>
+            <button
+              className="btn btn-primary rounded-full mt-5"
+              onClick={() => window.open('https://drive.google.com/file/d/1AuJ_nhals6ukdKYK-GaW13vhH6CR3mcc/view?usp=sharing', '_blank')}
+            >
+              <FaDownload /> Download CV
+            </button>
+
           </div>
         </div>
       </div>
