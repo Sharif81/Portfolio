@@ -34,8 +34,8 @@ const Project = () => {
               </p>
               <div className="divider"></div>
               <div className="mt-3 flex space-x-2">
-               <a href="https://sharif81.github.io/digital-marketing/" target="_blank"> <button className="btn btn-outline btn-primary btn-sm">Live Link</button></a>
-               <a href="https://github.com/Sharif81/digital-marketing" target="_blank"> <button className="btn btn-outline btn-primary btn-sm">GitHub</button></a>
+               <a href="https://sharif81.github.io/digital-marketing/" target="_blank" rel="noopener noreferrer"> <button className="btn btn-outline btn-primary btn-sm">Live Link</button></a>
+               <a href="https://github.com/Sharif81/digital-marketing" target="_blank" rel="noopener noreferrer"> <button className="btn btn-outline btn-primary btn-sm">GitHub</button></a>
               </div>
             </div>         
 
@@ -51,8 +51,8 @@ const Project = () => {
               </p>
               <div className="divider"></div>
               <div className="mt-3 flex space-x-2">
-               <a href="https://weather-live-update.netlify.app/" target="_blank"> <button className="btn btn-outline btn-primary btn-sm">Live Link</button></a>
-               <a href="https://github.com/Sharif81/live-weather" target="_blank"> <button className="btn btn-outline btn-primary btn-sm">GitHub</button></a>
+               <a href="https://weather-live-update.netlify.app/" target="_blank" rel="noopener noreferrer"> <button className="btn btn-outline btn-primary btn-sm">Live Link</button></a>
+               <a href="https://github.com/Sharif81/live-weather" target="_blank" rel="noopener noreferrer"> <button className="btn btn-outline btn-primary btn-sm">GitHub</button></a>
               </div>
             </div>
 
@@ -68,8 +68,8 @@ const Project = () => {
               </p>
               <div className="divider"></div>
               <div className="mt-3 flex space-x-2">
-               <a href="https://github.com/Sharif81/ElibraryManagment" target="_blank"> <button className="btn btn-outline btn-primary btn-sm">Live Link</button></a>
-               <a href="https://github.com/Sharif81/ElibraryManagment" target="_blank"> <button className="btn btn-outline btn-primary btn-sm">GitHub</button></a>
+               <a href="https://github.com/Sharif81/ElibraryManagment" target="_blank" rel="noopener noreferrer"> <button className="btn btn-outline btn-primary btn-sm">Live Link</button></a>
+               <a href="https://github.com/Sharif81/ElibraryManagment" target="_blank" rel="noopener noreferrer"> <button className="btn btn-outline btn-primary btn-sm">GitHub</button></a>
               </div>
             </div>
 
@@ -85,8 +85,8 @@ const Project = () => {
               </p>
               <div className="divider"></div>
               <div className="mt-3 flex space-x-2">
-               <a href="https://github.com/Sharif81/AttendanceManagment" target="_blank"> <button className="btn btn-outline btn-primary btn-sm">Live Link</button></a>
-               <a href="https://github.com/Sharif81/AttendanceManagment" target="_blank"> <button className="btn btn-outline btn-primary btn-sm">GitHub</button></a>
+               <a href="https://github.com/Sharif81/AttendanceManagment" target="_blank" rel="noopener noreferrer"> <button className="btn btn-outline btn-primary btn-sm">Live Link</button></a>
+               <a href="https://github.com/Sharif81/AttendanceManagment" target="_blank" rel="noopener noreferrer"> <button className="btn btn-outline btn-primary btn-sm">GitHub</button></a>
               </div>
             </div>         
 
@@ -102,8 +102,8 @@ const Project = () => {
               </p>
               <div className="divider"></div>
               <div className="mt-3 flex space-x-2">
-               <a href="https://github.com/Sharif81/WeddingLetterClient" target="_blank"> <button className="btn btn-outline btn-primary btn-sm">Live Link</button></a>
-               <a href="https://github.com/Sharif81/WeddingLetterClient" target="_blank"> <button className="btn btn-outline btn-primary btn-sm">GitHub</button></a>
+               <a href="https://github.com/Sharif81/WeddingLetterClient" target="_blank" rel="noopener noreferrer"> <button className="btn btn-outline btn-primary btn-sm">Live Link</button></a>
+               <a href="https://github.com/Sharif81/WeddingLetterClient" target="_blank" rel="noopener noreferrer"> <button className="btn btn-outline btn-primary btn-sm">GitHub</button></a>
               </div>
             </div>
 
@@ -119,8 +119,8 @@ const Project = () => {
               </p>
               <div className="divider"></div>
               <div className="mt-3 flex space-x-2">
-               <a href="https://github.com/Sharif81/WeddingLetterApp" target="_blank"> <button className="btn btn-outline btn-primary btn-sm">Live Link</button></a>
-               <a href="https://github.com/Sharif81/WeddingLetterApp" target="_blank"> <button className="btn btn-outline btn-primary btn-sm">GitHub</button></a>
+               <a href="https://github.com/Sharif81/WeddingLetterApp" target="_blank" rel="noopener noreferrer"> <button className="btn btn-outline btn-primary btn-sm">Live Link</button></a>
+               <a href="https://github.com/Sharif81/WeddingLetterApp" target="_blank" rel="noopener noreferrer"> <button className="btn btn-outline btn-primary btn-sm">GitHub</button></a>
               </div>
             </div>
           </div>

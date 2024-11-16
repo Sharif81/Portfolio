@@ -1,5 +1,5 @@
 import React from 'react'
-import { FaHtml5, FaCss3Alt, FaBootstrap, FaJsSquare, FaReact, FaAngular, FaDatabase, FaCogs, FaMicrosoft } from 'react-icons/fa';
+import { FaHtml5, FaCss3Alt, FaBootstrap, FaJsSquare, FaReact, FaAngular, FaDatabase, FaCogs } from 'react-icons/fa';
 import { RiTailwindCssFill } from "react-icons/ri";
 import { SiCsharp, SiDotnet } from "react-icons/si";
 import { DiDotnet } from "react-icons/di";

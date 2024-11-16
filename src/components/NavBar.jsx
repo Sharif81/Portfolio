@@ -1,4 +1,4 @@
-import { FaFacebook, FaGithub, FaLinkedinIn, FaTimes } from 'react-icons/fa';
+import { FaFacebook, FaGithub, FaLinkedinIn } from 'react-icons/fa';
 import { NavLink } from 'react-router-dom';
 
 const NavBar = () => {
