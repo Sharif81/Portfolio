@@ -32,7 +32,7 @@ const NavBar = () => {
                             <li className='hover:bg-gray-800 rounded-md'><NavLink  to='/contact'>Contact</NavLink ></li>
                         </ul>
                     </div>
-                    <a className="btn btn-ghost text-xl">Sharif Ahmed Alif</a>
+                    <a className="btn btn-ghost text-xl" href="#">Sharif Ahmed Alif</a>
                 </div>
                 <div className="navbar-center hidden lg:flex">
                     <ul className="menu menu-horizontal px-1">
